@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [".src/**/*.tsx"],
+  content: ["./src/**/*.tsx"],
   theme: {
     fontSizes: {
       xs: 14,
@@ -8,7 +8,7 @@ module.exports = {
       md: 18,
       lg: 20,
       xl: 24,
-      '2xl': 32,
+      "2xl": 32,
     },
     colors: {
       "gray-900": "#121214",
